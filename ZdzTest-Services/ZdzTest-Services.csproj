@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>ZdzTest_Services</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZdzTest-Models\ZdzTest-Models.csproj" />
+    <ProjectReference Include="..\ZdzTest-Repositories\ZdzTest-Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
